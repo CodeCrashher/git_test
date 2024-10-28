@@ -47,9 +47,14 @@ $ git checkout 54905b8          # go to 54905b8 commit
 ```bash
 $ git branch develop
 $ git checkout develop          # switch to "develop" branch
-    OR simply
-$ git checkout -b test_br       # create "test_br" brach and go in
+```
+##### OR simply:
 
+```bash
+$ git checkout -b test_br       # create "test_br" brach and go in
+```
+
+```bash
 $ git checkout -m my_fix        # change name of brach
 $ git branch -d new_branch      # delete branch
 $ git push --set-upstream origin new_branch     # push the branch to remote repo
